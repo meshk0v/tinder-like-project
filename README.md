@@ -1,4 +1,4 @@
-# Tinder-like Architecture MVP
+# Tinder-like Project MVP
 
 The main goal of this project is to demonstrate a **Tinder-like system architecture** (microservices + clear service boundaries) 
 
