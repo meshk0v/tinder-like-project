@@ -2,7 +2,7 @@
 
 The main goal of this project is to demonstrate a **Tinder-like system architecture** (microservices + clear service boundaries) 
 
-I built this architecture with an AI Agent to better understand what a solid microservices architecure looks like for a Tinder-like project. I'll probably keep improving it to make the design more enjoyable design and the system more scalable  
+I built this architecture with an AI Agent to better understand what a solid microservices architecture looks like for a Tinder-like project. I'll probably keep improving it to make the design more enjoyable and the system more scalable  
 
 ## Scope Covered
 
