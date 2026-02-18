@@ -1,0 +1,4 @@
+backend/node_modules
+backend/npm-debug.log*
+backend/data/images/*
+!backend/data/images/.gitkeep

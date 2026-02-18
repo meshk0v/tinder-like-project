@@ -1,0 +1,26 @@
+{
+  "name": "tinder-architecture-mvp",
+  "version": "1.0.0",
+  "description": "Tinder-like microservice architecture MVP",
+  "type": "module",
+  "scripts": {
+    "db:migrate": "node scripts/migrate.js",
+    "start:gateway": "node services/gateway.js",
+    "start:profile": "node services/profile.js",
+    "start:image": "node services/image.js",
+    "start:recommendation": "node services/recommendation.js",
+    "start:matches": "node services/matches.js",
+    "start:sessions": "node services/sessions.js",
+    "start:messaging": "node services/messaging.js",
+    "start:all": "bash scripts/run-all.sh",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down -v"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.883.0",
+    "express": "^4.21.2",
+    "ioredis": "^5.6.1",
+    "pg": "^8.16.3",
+    "ws": "^8.18.0"
+  }
+}
